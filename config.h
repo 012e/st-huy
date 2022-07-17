@@ -468,6 +468,11 @@ static Key key[] = {
 	{ XK_F33,           XK_NO_MOD,      "\033[20;5~",    0,    0},
 	{ XK_F34,           XK_NO_MOD,      "\033[21;5~",    0,    0},
 	{ XK_F35,           XK_NO_MOD,      "\033[23;5~",    0,    0},
+	{ XK_Menu,          XK_NO_MOD,      "\033[15~",      0,    0},
+	{ XK_Menu,          ShiftMask,      "\033[15;2~",    0,    0},
+	{ XK_Menu,          ControlMask,    "\033[15;5~",    0,    0},
+	{ XK_Menu,          Mod4Mask,       "\033[15;6~",    0,    0},
+	{ XK_Menu,          Mod1Mask,       "\033[15;3~",    0,    0},
 
 	// libtermkey compatible keyboard input
 	{ XK_KP_Home,      XK_NO_MOD,                      "\033[H",      0, -1},
